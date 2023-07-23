@@ -1,0 +1,47 @@
+.outerDiv{
+    height: 8rem;
+    width: 80%;
+    border: 2px solid gray;
+    margin: 30px auto;
+    box-shadow: 2px 2px 2px lightgray;
+    background-color: #fff;
+}
+.outerDiv form{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px 20px 0px;
+}
+.outerDiv label{
+    font-size: 2rem;
+    /* line-height: 40px; */
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: maroon;
+}
+.inputField{
+    height: 2.4rem;
+    width: 34rem;
+    margin: 10px 4rem 10px 0px;
+}
+.addHabitBtn{
+    height: 2.4rem;
+    width: 9rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: midnightblue;
+    color: white;
+    cursor: pointer;
+}
+.addHabitBtn:hover{
+    background-color: blue;
+}
+.addHabitBtn:active{
+    transform: scale(0.97);
+}

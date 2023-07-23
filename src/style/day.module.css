@@ -1,0 +1,40 @@
+.outerDiv{
+    height: 120px;
+    width: 160px;
+    /* border: 2px solid red; */
+    background-color: #c5f6fa;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.outerDiv h5{
+    color: green;
+}
+.outerDiv p{
+    color: midnightblue;
+}
+.done{
+    color: blue;
+}
+.form{
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+.form label{
+    font-size: 0.7rem;
+}
+.iconDiv{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconDiv i{
+    font-size: 1.8rem;
+}

@@ -1,0 +1,25 @@
+.outerDiv{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+}
+.outerDiv h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 5rem;
+    color: yellow;
+}
+.imgDiv{
+    height: 40vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgDiv img{
+    height: 200px;
+    width: 200px;
+}
